@@ -1,5 +1,5 @@
 
-const WineImageComponent = (props) => {
+const WineImage = (props) => {
     return (
         <>
             <img src={props.imageUrl} alt={props.imageName} />
@@ -8,4 +8,4 @@ const WineImageComponent = (props) => {
     )
 }
 
-export default WineImageComponent;
+export default WineImage;
